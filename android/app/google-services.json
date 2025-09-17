@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "978731627347",
+    "project_id": "rimes-interview-project",
+    "storage_bucket": "rimes-interview-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978731627347:android:8c8a7611e2f359e7dfa7a6",
+        "android_client_info": {
+          "package_name": "com.example.rimes_interview_projects"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhFiACO3nsmqLi1OjvsgH7GYEzW4EweSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
