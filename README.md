@@ -1,16 +1,40 @@
-# rimes_interview_projects
+# Articles HUB– Flutter Firebase App
 
-A new Flutter project.
+ Articles Hub  is a Flutter-based mobile application that allows users to:
 
-## Getting Started
+ Register/Login with Firebase Authentication
 
-This project is a starting point for a Flutter application.
+Create, edit, and delete articles
 
-A few resources to get you started if this is your first Flutter project:
+ Sync articles with Cloud Firestore and SQLite (local cache)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ Receive push notifications (FCM) when a new article is posted (except for the author)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+View personal posting frequency with a contribution heatmap
+
+ Work in both online/offline modes (local caching with sync)
+
+ Tech Stack
+
+Flutter (Dart)
+
+Provider for state management
+
+Firebase Authentication for user management
+
+Cloud Firestore for storing articles and user data
+
+Firebase Cloud Messaging (FCM) for push notifications
+
+SQLite (via DBHelper) for offline caching
+
+MVVM Architecture (Model-View-ViewModel)
+
+ Features Implemented
+
+- User Registration & Login
+- Article CRUD (Create, Read, Update, Delete)
+- Push Notifications using Firebase Cloud Messaging (API V1)
+- Offline caching with SQLite
+- Contribution heatmap (posting frequency tracker)
+- Clean business-formal MVVM structure
