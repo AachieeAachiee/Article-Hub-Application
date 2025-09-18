@@ -78,7 +78,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets\animation\shopping cart.json
+    - assets/animation/shopping cart.json
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
